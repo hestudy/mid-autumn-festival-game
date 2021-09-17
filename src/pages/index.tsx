@@ -3,7 +3,7 @@ import { run } from '@/pages/oasis';
 
 export default function IndexPage() {
   useLayoutEffect(() => {
-    run();
+    run().then();
   }, []);
   return (
     <canvas
